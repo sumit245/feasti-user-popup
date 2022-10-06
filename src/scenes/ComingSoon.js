@@ -9,7 +9,7 @@ export default function ComingSoon() {
       <Icon name="campfire" size={64} color="#ff7600" />
       <Text
         style={{
-          fontSize: 24,
+          fontSize: 20,
           textAlign: 'center',
           marginVertical: 16,
           color: '#f36f00',
@@ -18,30 +18,32 @@ export default function ComingSoon() {
       >
         Cooking something delicious for you.
       </Text>
-      <Text
-        style={{
-          fontSize: 20,
-          textAlign: 'center',
-          marginVertical: 16,
-          color: '#000600',
-          paddingHorizontal: 16,
-          fontWeight: 'bold',
-        }}
-      >
-        Get Notified
-      </Text>
-      <Text
-        style={{
-          fontSize: 20,
-          textAlign: 'center',
-          marginVertical: 0,
-          color: '#000600',
-          paddingHorizontal: 16,
-          fontWeight: 'bold',
-        }}
-      >
-        when we launch
-      </Text>
+      <View>
+        <Text
+          style={{
+            fontSize: 20,
+            textAlign: 'justify',
+            marginTop: 16,
+            color: '#000600',
+            paddingHorizontal: 16,
+            fontWeight: 'bold',
+          }}
+        >
+          Get Notified
+        </Text>
+        <Text
+          style={{
+            fontSize: 20,
+            textAlign: 'justify',
+            marginVertical: 0,
+            color: '#000600',
+            paddingHorizontal: 16,
+            fontWeight: 'bold',
+          }}
+        >
+          When we launch
+        </Text>
+      </View>
     </SafeAreaView>
   );
 }
