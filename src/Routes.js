@@ -190,7 +190,7 @@ export default function Routes() {
   useEffect(() => {
     let componentMount = true;
     if (componentMount) {
-      if (moment().isAfter(moment('10-Oct-2022').format('dd-MMM-YYYY'))) {
+      if (moment().isAfter(moment('15-Oct-2022').format('dd-MMM-YYYY'))) {
         setLaunched(true);
       }
     }
