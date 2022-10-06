@@ -163,7 +163,7 @@ const NotLaunchedRoutes = () => (
 export default function Routes() {
   const [login, setLogin] = useState(false);
   const [loaded, setLoading] = useState(false);
-  const [launched, setLaunched] = useState(true);
+  const [launched, setLaunched] = useState(false);
   const setUser = async () => {
     try {
       const res = await getUser('user');
