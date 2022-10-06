@@ -9,37 +9,38 @@ export default function ComingSoon() {
       <Icon name="campfire" size={64} color="#ff7600" />
       <Text
         style={{
-          fontSize: 28,
+          fontSize: 24,
           textAlign: 'center',
           marginVertical: 16,
           color: '#f36f00',
           padding: 16,
         }}
       >
-        Cooking something delicious for you
+        Cooking something delicious for you.
       </Text>
       <Text
         style={{
           fontSize: 20,
           textAlign: 'center',
           marginVertical: 16,
-          color: '#a30300',
+          color: '#000600',
           paddingHorizontal: 16,
+          fontWeight: 'bold',
         }}
       >
-        We are coming soon in your city
+        Get Notified
       </Text>
       <Text
         style={{
           fontSize: 20,
           textAlign: 'center',
-          marginVertical: 8,
-          color: '#030300',
+          marginVertical: 0,
+          color: '#000600',
           paddingHorizontal: 16,
           fontWeight: 'bold',
         }}
       >
-        Stay Tuned !!!
+        when we launch
       </Text>
     </SafeAreaView>
   );
